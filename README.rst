@@ -34,6 +34,21 @@ Each bottle contains a LED with a WS2801 driver. Each crate contains a chain of 
 9. ???
 10. PROFIT!!
 
+How to put the LEDs into a crate:
+
+.. code::
+
+  START
+    | 
+    v
+    -> |o -> o -> o -> o -> o|
+       |                    v| 
+    <- |o    o <- o <- o <- o|
+       |^    v               |
+       |o    o -> o -> o -> o|
+       |^                   v|
+       |o <- o <- o <- o <- o|
+
 Software
 --------
 The control software is a Python script accepting framebuffer data via UDP and text via TCP. Since it is run on a 900MHz Pentium 3, the two most time-critical pieces, pixel font rendering for scrolling text and USB communication are written in C and called from the Python script via ctypes.
