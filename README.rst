@@ -38,7 +38,7 @@ How to put the LEDs into a crate:
 
 .. code::
 
-  START
+  START (Top view)
     | 
     v
     -> |o -> o -> o -> o -> o|
