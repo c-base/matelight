@@ -106,6 +106,7 @@ Related Projects
 * `A Unity 3D backend`_
 * `Advanced Conway's Game of Life`_
 * `How to CRAP in bash because nc is for noobs`_
+* `How to stream videos to MateLight using ffmpeg`_
 
 As featured on…
 ---------------
@@ -133,4 +134,5 @@ As featured on…
 .. _`A Unity 3D backend`: http://firepunchd.tumblr.com/post/123631124063/every-pixel-is-sacred-on-a-40x16-display-you-have
 .. _`Advanced Conway's Game of Life`: https://github.com/vileda/golGL
 .. _`How to CRAP in bash because nc is for noobs`: https://gist.github.com/anonymous/0299b536dabd8ee59529
+.. _`How to stream videos to MateLight using ffmpeg`: https://gist.github.com/MichaelKreil/0dffd8e5062e2dcfb7ea
 
