@@ -33,7 +33,7 @@ import matelight
 import bdf
 import crap
 
-import secret_sauce
+#import secret_sauce
 
 
 def log(*args):
