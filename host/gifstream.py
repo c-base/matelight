@@ -107,5 +107,5 @@ if __name__ == '__main__':
 	frame_runner = threading.Thread(target=receiver, daemon=True)
 	frame_runner.start()
 
-	app.run()
+	app.run(host="0.0.0.0")
 	udp_server.close()

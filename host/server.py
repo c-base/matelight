@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
     tcp_server = MatelightTCPServer(config.tcp_addr, config.tcp_port, loop)
     udp_server = crap.CRAPServer(config.udp_addr, config.udp_port)
-    forwarder  = crap.CRAPClient(config.crap_fw_addr, config.crap_fw_port) if config.crap_fw_addr is not None else None
+#    forwarder  = crap.CRAPClient(config.crap_fw_addr, config.crap_fw_port) if config.crap_fw_addr is not None else None
 
     async_thr = threading.Thread(target=loop.run_forever)
     async_thr.daemon = True
@@ -108,9 +108,9 @@ if __name__ == '__main__':
             for title, frame in _fallbackiter(udp_server, _fallbackiter(tcp_server, defaulttexts())):
                 if ml:
                     ml.sendframe(frame)
-                if forwarder:
-                    forwarder.sendframe(frame)
+#                if forwarder:
+#                    forwarder.sendframe(frame)
 
     tcp_server.close()
     udp_server.close()
-    forwarder.close()
+#    #forwarder.close()

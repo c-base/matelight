@@ -76,5 +76,5 @@ if __name__ == '__main__':
 
 	gif_sender = threading.Thread(target=sendgifs, args=(args.target,), daemon=True)
 	gif_sender.start()
-	app.run()
+	app.run(host="0.0.0.0")
 
