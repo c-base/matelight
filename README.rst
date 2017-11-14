@@ -108,6 +108,7 @@ Related Projects
 * `How to CRAP in bash because nc is for noobs`_
 * `Noisebridge's ripoff matelight :D`_
 * `A Haskell CRAP client library`_
+* `How to stream videos to MateLight using ffmpeg`_
 
 As featured on…
 ---------------
@@ -137,3 +138,5 @@ As featured on…
 .. _`How to CRAP in bash because nc is for noobs`: https://gist.github.com/anonymous/0299b536dabd8ee59529
 .. _`Noisebridge's ripoff matelight :D`: https://github.com/hzeller/flaschen-taschen
 .. _`A Haskell CRAP client library`: https://github.com/bigmac2k/HSMateLight
+.. _`How to stream videos to MateLight using ffmpeg`: https://gist.github.com/MichaelKreil/0dffd8e5062e2dcfb7ea
+
