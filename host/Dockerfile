@@ -17,4 +17,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 WORKDIR /host
 COPY . .
 RUN make
+EXPOSE 1337/tcp
+EXPOSE 1337/udp
 CMD [ "python", "/host/server.py" ]
